@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Riyadh Season</title>
     <link rel="stylesheet" href="styleCap/reset.css" />
-    <link rel="stylesheet" href="styleCap/mobileCap.css" />
-    <link rel="stylesheet" href="styleCap/desktopCap.css" />
+    <link rel="stylesheet" media="(max-width: 768px)" href="styleCap/mobileCap.css" />
+    <link rel="stylesheet" media="(min-width: 768px)" href="styleCap/desktopCap.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,28 +16,27 @@
     />
   </head>
   <body>
-    <section id="home">
       <header>
         <nav class="navbar">
+            <div class="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
           <ul class="nav-menu">
             <li class="nav-item">
-              <a href="#" class="nav-link">Home</a>
+              <a href="#" class="nav-link text-muted">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">About</a>
+              <a href="#" class="nav-link text-muted">About</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">News</a>
+              <a href="#" class="nav-link text-muted">News</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Sponser</a>
+              <a href="#" class="nav-link text-muted">Sponser</a>
             </li>
           </ul>
-          <div class="hamburger-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
         </nav>
         <h2 class="display-2">"Hello! Sharing World"</h2>
         <h1 class="display-1 fw-bold">
@@ -50,7 +49,34 @@
         A jouful festival where people from around the world will experiance
         different events. Where each event is far more unique than the other.
       </p>
-    </section>
+      <p class="display-3 fw-bold">2022.3.21(FRI) ~ 22(SAT)</p>
+
+      <!-- Main Program -->
+<section id="home">
+<h3>Main Program</h3>
+<div>
+    <p class="display-4">Tickets</p>
+    <p>Listen to the speakers from various countries about the messages of sharing & opening.</p>
+</div>
+<div>
+    <p class="display-4">The Crytal Maze</p>
+    <p>Listen to the speakers from various countries about the messages of sharing & opening.</p>
+</div>
+<div>
+    <p class="display-4">Squid Game</p>
+    <p>Listen to the speakers from various countries about the messages of sharing & opening.</p>
+</div>
+<div>
+    <p class="display-4">Kan Ya Ma Kan</p>
+    <p>Listen to the speakers from various countries about the messages of sharing & opening.</p>
+</div>
+<div>
+    <p class="display-4">Chocolate Factory</p>
+    <p>Listen to the speakers from various countries about the messages of sharing & opening.</p>
+
+</div>
+</section>
+
     <script src="capstone.js"></script>
   </body>
 </html>
