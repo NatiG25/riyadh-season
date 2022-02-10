@@ -134,5 +134,4 @@ speakers.innerHTML = `
   </div>
 </article>
 </div>
-
 `
