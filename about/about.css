@@ -32,6 +32,28 @@
     display: none;
   }
 
+  .festival-background {
+    background-image: url(/image/Riyadh-Season-Firework.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+  }
+
+  .partners {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .partners p {
+    padding-left: 4%;
+  }
+
+  #partners {
+    background-color: #454a57;
+  }
+
+
 /* Active hamburger */
   .hamburger-menu.active .bar:nth-child(2) {
     opacity: 0;
