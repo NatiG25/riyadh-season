@@ -1,16 +1,19 @@
 # Capstone-Project
 
-> The home & about page of the Capstone project.
+> Join us for this festival, 'Riyadh Season', in Riyadh. 
 
-In this project I designed a two pages, home & about. Both pages are responsive along with creating a whole sectoin using DOM manuplation. 
-
-## Live Demo
-
-[Live Demo Link](https://natig25.github.io/Portifolio/)
+In this project I designed a two pages, home & about. Both pages are responsive along with creating a whole sectoin using DOM manuplation.
 
 ## Built With
 
-- HTML & CSS
+- HTML
+- CSS
+- Javascript
+- VS code
+
+## Live Demo
+
+[Live Demo Link](https://natig25.github.io/Capstone-Project/)
 
 ## Authors
 
@@ -24,6 +27,10 @@ In this project I designed a two pages, home & about. Both pages are responsive 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+## Acknowledgments
+
+- Cindy Shin in Behance.
 
 ## Show your support
 
