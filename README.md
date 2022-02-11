@@ -30,7 +30,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## Acknowledgments
 
-- Cindy Shin in Behance.
+- [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## Show your support
 

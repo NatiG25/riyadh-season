@@ -57,6 +57,11 @@
     opacity: 0.7;
   }
 
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+
   .partners {
     display: flex;
     justify-content: space-between;
@@ -70,6 +75,21 @@
     background-color: #454a57;
   }
 
+  .logo-img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .copy-text {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .flex-copy {
+    display: flex;
+    background-color: white;
+    color: black;
+  }
 
 /* Active hamburger */
   .hamburger-menu.active .bar:nth-child(2) {
@@ -97,7 +117,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .mobile-nav {
+  .mobile-nav,
+  #partners {
     display: none;
   }
 
@@ -138,6 +159,7 @@
   .first-title {
     background-color: rgb(51, 54, 54);
     padding-right: 10%;
+    padding-bottom: 5px;
   }
 
   .first-title a {
@@ -154,6 +176,8 @@
   .title-black li {
     text-decoration: none;
     padding-left: 20px;
+    padding-top: 15px;
+    font-size: 17px;
   }
 
   .second-title {
@@ -166,6 +190,12 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
+    align-items: center;
+  }
+
+  .logo-img {
+    width: 70px;
+    height: 70px;
   }
 
   #home-desktop {
@@ -175,11 +205,17 @@
   }
 
   .festival-background {
-    background-image: url(/image/Riyadh-Season-Firework.jpg);
+    background-image: url(../image/Riyadh-Season-Firework.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.7;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .partners {
@@ -195,13 +231,16 @@
     background-color: #454a57;
   }
 
-  .flex {
+  .flex-copy {
     display: flex;
     justify-content: center;
+    gap: 20px;
+    background-color: black;
+    color: white;
   }
 
-  .logo-img {
-    width: 70px;
-    height: 70px;
+  .copy-text {
+    display: flex;
+    align-items: flex-end;
   }
 }
