@@ -11,6 +11,7 @@ ive along with creating a whole sectoin using DOM manuplation.
 - CSS
 - Javascript
 - VS code
+- Bootstrap
 
 ## Live Demo
 
