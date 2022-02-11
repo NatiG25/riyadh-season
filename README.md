@@ -2,9 +2,9 @@
 
 > Join us for this festival, 'Riyadh Season', in Riyadh. 
 
-In this project I designed a two pages, home & about. Both pages are responsive along with creating a whole sectoin using DOM manuplation.
-![Screenshot from 2022-02-12 00-35-38](https://user-images.githubusercontent.com/86069740/153676512-e1510344-060f-4f38-9568-990077d6df00.png)
-![Screenshot from 2022-02-12 01-00-50](https://user-images.githubusercontent.com/86069740/153676522-c463376c-45fc-43a5-ba6c-24afd67d376d.png)
+In this project I designed a two pages, home & about. Both pages are respons![Screenshot from 2022-02-12 00-35-38](https://user-images.githubusercontent.com/86069740/153676668-1ba41fb8-4cd2-4658-ab55-f0d92b4808f6.png)
+ive along with creating a whole sectoin using DOM manuplation.
+![Screenshot from 2022-02-12 01-00-50](https://user-images.githubusercontent.com/86069740/153676678-c96e619d-9f39-453d-9660-10f6335c104e.png)
 
 ## Built With
 
