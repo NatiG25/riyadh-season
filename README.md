@@ -1,8 +1,6 @@
 # Capstone-Project
 
-> Join us for this festival, 'Riyadh Season', in Riyadh. 
-
-In this project I designed a two pages, home & about. Both pages are responsive along with creating a whole sectoin using DOM manuplation.
+> For this project I created along with designed two pages, home & about page. I used DOM manupliation as well as bootstrap.
 
 ## Built With
 
@@ -14,6 +12,10 @@ In this project I designed a two pages, home & about. Both pages are responsive 
 ## Live Demo
 
 [Live Demo Link](https://natig25.github.io/Capstone-Project/)
+
+## Video Presentation
+
+[link](https://www.loom.com/share/2a218e4a6c2c4e08acef945f2ad51b96)
 
 ## Authors
 

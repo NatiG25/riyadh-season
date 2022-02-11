@@ -2,17 +2,17 @@ const hamburger = document.querySelector('.hamburger-menu');
 const navMenu = document.querySelector('.nav-menu');
 
 hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active');
-    navMenu.classList.toggle('active');
-})
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+});
 
-document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
-    hamburger.classList.remove('active');
-    navMenu.classList.remove('active');
-}))
+document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  navMenu.classList.remove('active');
+}));
 
 // Featured speakers
-let projects = [
+const projects = [
   {
     title: 'Al-Waleed bin Talal',
     headTitle: 'A prince from a royal family.',
@@ -40,7 +40,7 @@ let projects = [
     description: 'A well-known investor.',
     src: 'https://china.aramco.com/-/media/aramcochina/news-images/amin-nasser-president-and-ceo-web.jpg',
   },
-  
+
   {
     title: 'Jasser Abdullah Jasser Al Ahmadi',
     headTitle: 'A prince from a royal family.',
@@ -54,9 +54,9 @@ let projects = [
     description: 'A well-known investor.',
     src: 'https://6erxg60qvo1qvjha44jrgpan-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/Screenshot-2021-12-20-at-14.16.14.png',
   },
-]
+];
 
-let speakers = document.querySelector('#speakers');
+const speakers = document.querySelector('#speakers');
 speakers.innerHTML = `
 <h2 class="mt-5 text-center">Featured Speakers</h2>
 <hr style="width:10%; height: 3px; color:red; margin-left: 45%;">
@@ -134,9 +134,9 @@ speakers.innerHTML = `
   </div>
 </article>
 </div>
-`
+`;
 // Desktop Feature
-let speakersDesktop = document.querySelector('#speakers-desktop');
+const speakersDesktop = document.querySelector('#speakers-desktop');
 speakersDesktop.innerHTML = `
 <h5 class="mt-5 text-center">Featured Speakers</h5>
 <hr style="width:10%; height: 3px; color:red; margin-left: 45%;"> 
@@ -215,6 +215,4 @@ speakersDesktop.innerHTML = `
 </section>
 
 </div>
-
-
-`
+`;

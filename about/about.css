@@ -1,5 +1,4 @@
 @media screen and (max-width: 768px) {
-
   .logo,
   .first-title,
   .second-title,
@@ -7,7 +6,7 @@
     display: none;
   }
 
-    /* Nav */
+  /* Nav */
   .header-background {
     background-image: url(../image/header.png);
     background-repeat: no-repeat;
@@ -27,8 +26,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .header {
@@ -42,7 +41,7 @@
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
     background-color: rgb(134, 130, 130);
-    font-weight: 100%;
+    font-weight: 100px;
   }
 
   .nav-menu {
@@ -94,7 +93,7 @@
     gap: 20px;
   }
 
-/* Active hamburger */
+  /* Active hamburger */
   .hamburger-menu.active .bar:nth-child(2) {
     opacity: 0;
   }
@@ -147,10 +146,10 @@
 
   .title-red {
     display: block;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     color: red;
     text-decoration: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
     border: 1px solid red;
     border-width: 5px;
   }

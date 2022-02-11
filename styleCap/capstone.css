@@ -1,5 +1,4 @@
 @media screen and (max-width: 768px) {
-
   .title-bar,
   .logo,
   .first-title,
@@ -11,7 +10,7 @@
     display: none;
   }
 
-    /* Nav */
+  /* Nav */
   .header-background {
     background-image: url(../image/header.png);
     background-repeat: no-repeat;
@@ -31,8 +30,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .header {
@@ -46,7 +45,7 @@
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
     background-color: rgb(134, 130, 130);
-    font-weight: 100%;
+    font-weight: 100px;
   }
 
   .nav-menu {
@@ -80,11 +79,11 @@
   }
 
   .ticket-button {
-     background-color: #ec5242;
-     padding: 20px;
-     color: white;
-     border: none;
-     font-size: larger;
+    background-color: #ec5242;
+    padding: 20px;
+    color: white;
+    border: none;
+    font-size: larger;
   }
 
   .ticket-button-container {
@@ -131,7 +130,6 @@
     background-size: cover;
     background-position: center;
   }
-
 
   .title-bar {
     display: flex;
@@ -186,13 +184,13 @@
     list-style: none;
     align-items: center;
   }
-  
+
   .title-red {
     display: block;
     padding: .5rem 1rem;
     color: red;
     text-decoration: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
     border: 1px solid red;
     border-width: 5px;
   }
