@@ -135,3 +135,86 @@ speakers.innerHTML = `
 </article>
 </div>
 `
+// Desktop Feature
+let speakersDesktop = document.querySelector('#speakers-desktop');
+speakersDesktop.innerHTML = `
+<h5 class="mt-5 text-center">Featured Speakers</h5>
+<hr style="width:10%; height: 3px; color:red; margin-left: 45%;"> 
+<div class="container mt-5 pt-5">
+
+<section>
+<div class="row">
+<div class="col-3">
+<img class="img-fluid" src="${projects[0].src}" alt="A Saudi Prince">
+</div>
+<div class="col-3">
+<h4>${projects[0].title}</h4>
+  <p class="feature-text">${projects[0].headTitle}</p>
+  <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
+  <p class="fst-italic">${projects[0].description}</p>
+</div>
+
+<div class="col-3">
+<img class="img-fluid" src="${projects[1].src}" alt="A Saudi Prince">
+</div>
+<div class="col-3">
+<h4>${projects[1].title}</h4>
+  <p class="feature-text">${projects[1].headTitle}</p>
+  <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
+  <p class="fst-italic">${projects[1].description}</p>
+</div>
+</div>
+</section>
+
+<section class="mt-5">
+<div class="row">
+<div class="col-3">
+<img class="img-fluid" src="${projects[2].src}" alt="A Saudi Prince">
+</div>
+<div class="col-3">
+<h4>${projects[2].title}</h4>
+  <p class="feature-text">${projects[2].headTitle}</p>
+  <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
+  <p class="fst-italic">${projects[2].description}</p>
+</div>
+
+<div class="col-3">
+<img class="img-fluid" src="${projects[3].src}" alt="A Saudi Prince">
+</div>
+<div class="col-3">
+<h4>${projects[3].title}</h4>
+  <p class="feature-text">${projects[3].headTitle}</p>
+  <hr style="width: 33%; height: 3px; color: black; margin-bottom: 8%" />
+  <p class="fst-italic">${projects[3].description}</p>
+</div>
+</div>
+</section>
+
+<section class="mt-5">
+<div class="row">
+<div class="col-3">
+<img class="img-fluid" src="${projects[4].src}" alt="A Saudi Prince">
+</div>
+<div class="col-3">
+<h4>${projects[4].title}</h4>
+  <p class="feature-text">${projects[4].headTitle}</p>
+  <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
+  <p class="fst-italic">${projects[4].description}</p>
+</div>
+
+<div class="col-3">
+<img class="img-fluid" src="${projects[5].src}" alt="A Saudi Prince">
+</div>
+<div class="col-3">
+<h4>${projects[5].title}</h4>
+  <p class="feature-text">${projects[5].headTitle}</p>
+  <hr style="width: 33%; height: 3px; color: black; margin-bottom: 8%" />
+  <p class="fst-italic">${projects[5].description}</p>
+</div>
+</div>
+</section>
+
+</div>
+
+
+`

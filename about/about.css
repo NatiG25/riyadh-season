@@ -1,5 +1,12 @@
 @media screen and (max-width: 768px) {
 
+  .logo,
+  .first-title,
+  .second-title,
+  #home-desktop {
+    display: none;
+  }
+
     /* Nav */
   .header-background {
     background-image: url(/image/header.png);
@@ -12,6 +19,16 @@
     display: block;
     cursor: pointer;
     margin: 20px 0 0 20px;
+  }
+
+  .mobile-nav {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
   }
 
   .header {
@@ -76,5 +93,115 @@
     width: 100%;
     transition: 0.3s;
     list-style: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .header-background {
+    background-image: url(/image/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .title-bar {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .title-red {
+    display: block;
+    padding: .5rem 1rem;
+    color: red;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    border: 1px solid red;
+    border-width: 5px;
+  }
+
+  .header {
+    color: #e63521;
+  }
+
+  .first-title {
+    background-color: rgb(51, 54, 54);
+    padding-right: 10%;
+  }
+
+  .first-title a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .title-black {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+
+  .title-black li {
+    text-decoration: none;
+    padding-left: 20px;
+  }
+
+  .second-title {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+  }
+
+  .title-white {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  #home-desktop {
+    background-image: url(/image/Partners.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .festival-background {
+    background-image: url(/image/Riyadh-Season-Firework.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+  }
+
+  .partners {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .partners p {
+    padding-left: 4%;
+  }
+
+  #partners {
+    background-color: #454a57;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-img {
+    width: 70px;
+    height: 70px;
   }
 }

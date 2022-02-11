@@ -3,7 +3,11 @@
   .title-bar,
   .logo,
   .first-title,
-  .second-title {
+  .second-title,
+  #speakers-desktop,
+  #home-desktop,
+  #partners,
+  #copyright {
     display: none;
   }
 
@@ -115,9 +119,19 @@
 
 @media screen and (min-width: 768px) {
   .nav-item,
-  .mobile-nav {
+  .mobile-nav,
+  #home,
+  #speakers {
     display: none;
   }
+
+  .header-background {
+    background-image: url(/image/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
 
   .title-bar {
     display: flex;
@@ -141,6 +155,11 @@
     padding-right: 15%;
   }
 
+  .first-title a {
+    text-decoration: none;
+    color: white;
+  }
+
   .title-black {
     display: flex;
     justify-content: flex-end;
@@ -155,12 +174,85 @@
   .second-title {
     display: flex;
     justify-content: space-around;
+    background-color: white;
   }
 
   .title-white {
     display: flex;
     justify-content: space-around;
     list-style: none;
+  }
+
+  .title-red {
+    display: block;
+    padding: .5rem 1rem;
+    color: red;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    border: 1px solid red;
+    border-width: 5px;
+  }
+
+  .logo-img {
+    width: 70px;
+    height: 70px;
+  }
+
+  #home-desktop {
+    background-image: url(/image/Partners.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .fas {
+    font-size: 3rem;
+  }
+
+  .main-text {
+    color: #ec5242;
+    font-weight: 500;
+    font-size: medium;
+  }
+
+  .events-container {
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 7%;
+  }
+
+  .events {
+    background-color: rgb(51, 54, 54);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+    transition: transform 0.1s ease-in-out;
+  }
+
+  .events:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(224, 218, 218);
+  }
+
+  .feature-text {
+    color: #ec5242;
+    font-style: italic;
+  }
+
+  .partners {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .partners p {
+    padding-left: 4%;
+  }
+
+  #partners {
+    background-color: #454a57;
   }
 
 }
