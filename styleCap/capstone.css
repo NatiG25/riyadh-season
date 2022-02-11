@@ -13,7 +13,7 @@
 
     /* Nav */
   .header-background {
-    background-image: url(/image/header.png);
+    background-image: url(../image/header.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -54,7 +54,7 @@
   }
 
   #home {
-    background-image: url(/image/Partners.jpg);
+    background-image: url(../image/Partners.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #ec5242;
@@ -259,4 +259,16 @@
     background-color: #454a57;
   }
 
+  .flex-copy {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    color: black;
+  }
+
+  .copy-text {
+    display: flex;
+    align-items: flex-end;
+  }
 }
