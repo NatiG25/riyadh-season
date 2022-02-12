@@ -151,12 +151,15 @@
   .first-title {
     background-color: rgb(51, 54, 54);
     padding-right: 10%;
-    padding-bottom: 5px;
   }
 
   .first-title a {
     text-decoration: none;
     color: white;
+  }
+
+  .first-title ul {
+    margin: 0;
   }
 
   .title-black {
@@ -168,19 +171,17 @@
   .title-black li {
     text-decoration: none;
     padding-left: 20px;
-    padding-top: 15px;
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .second-title {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     background-color: white;
   }
 
   .title-white {
     display: flex;
-    justify-content: space-around;
     list-style: none;
     align-items: center;
   }
