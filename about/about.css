@@ -79,18 +79,20 @@
     height: 70px;
   }
 
-  .copy-text {
-    display: flex;
-    justify-content: flex-end;
-  }
-
   .flex-copy {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     background-color: white;
     color: black;
-    gap: 20px;
+    padding: 30px 0 30px 0;
+  }
+
+  .para-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 
   /* Active hamburger */
@@ -144,16 +146,6 @@
     list-style: none;
   }
 
-  .title-red {
-    display: block;
-    padding: 0.5rem 1rem;
-    color: red;
-    text-decoration: none;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-    border: 1px solid red;
-    border-width: 5px;
-  }
-
   .header {
     color: #e63521;
   }
@@ -161,12 +153,15 @@
   .first-title {
     background-color: rgb(51, 54, 54);
     padding-right: 10%;
-    padding-bottom: 5px;
   }
 
   .first-title a {
     text-decoration: none;
     color: white;
+  }
+
+  .first-title ul {
+    margin: 0;
   }
 
   .title-black {
@@ -178,21 +173,29 @@
   .title-black li {
     text-decoration: none;
     padding-left: 20px;
-    padding-top: 15px;
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .second-title {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     background-color: white;
   }
 
   .title-white {
     display: flex;
-    justify-content: space-around;
     list-style: none;
     align-items: center;
+  }
+
+  .title-red {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: red;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    border: 1px solid red;
+    border-width: 5px;
   }
 
   .logo-img {
@@ -236,13 +239,15 @@
   .flex-copy {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     background-color: black;
     color: white;
+    padding: 30px 0 30px 0;
   }
 
-  .copy-text {
+  .para-copy {
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 }
