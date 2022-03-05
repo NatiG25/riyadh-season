@@ -19,7 +19,7 @@ ive along with creating a whole sectoin using DOM manuplation.
 
 ## Video Presentation
 
-[link](https://www.loom.com/share/2a218e4a6c2c4e08acef945f2ad51b96)
+A video providing a brief explanation about the wesite and how it works. You can watch through this [link](https://www.loom.com/share/2a218e4a6c2c4e08acef945f2ad51b96)
 
 ## Authors
 
