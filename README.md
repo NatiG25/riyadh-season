@@ -1,6 +1,6 @@
 # Capstone-Project
 
-> For this project I created along with designed two pages, the home & about page. I used DOM manupliation as well as bootstrap.
+> This is the Riyadh season website. Where people can see highlights of previous festivals in addition to getting a glimpse of what's about to come for this year's festival.
 ![Screenshot from 2022-02-12 00-35-38](https://user-images.githubusercontent.com/86069740/153676668-1ba41fb8-4cd2-4658-ab55-f0d92b4808f6.png)
 ive along with creating a whole sectoin using DOM manuplation.
 ![Screenshot from 2022-02-12 01-00-50](https://user-images.githubusercontent.com/86069740/153676678-c96e619d-9f39-453d-9660-10f6335c104e.png)
