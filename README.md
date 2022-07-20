@@ -17,7 +17,7 @@ ive along with creating a whole sectoin using DOM manuplation.
 
 ## Live Demo
 
-[Live Demo Link](https://natig25.github.io/Capstone-Project/)
+[Live Demo Link](https://natig25.github.io/Riyadh-season/)
 
 ## Video Presentation
 
