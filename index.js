@@ -14,49 +14,50 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 // Featured speakers
 const projects = [
   {
+    src: 'https://static01.nyt.com/images/2017/11/12/us/05Saudi/05Saudi-articleLarge.jpg?quality=75&auto=webp&disable=upscale',
     title: 'Al-Waleed bin Talal',
     headTitle: 'A prince from a royal family.',
     description: 'A well-known investor.',
-    src: 'https://static01.nyt.com/images/2017/11/12/us/05Saudi/05Saudi-articleLarge.jpg?quality=75&auto=webp&disable=upscale',
   },
 
   {
+    src: 'https://www.africatopsuccess.com/wp-content/uploads/2013/10/mohammed-al-amoudi.jpg',
     title: 'Mohammed Hussein Al Amoudi',
     headTitle: 'A prince from a royal family.',
     description: 'A well-known investor.',
-    src: 'https://www.africatopsuccess.com/wp-content/uploads/2013/10/mohammed-al-amoudi.jpg',
   },
 
   {
+    src: 'https://static.mubasher.info/File.Story_Image/4e4b61bb7d76de020c9350a5f2b7bfc4/640.jpg',
     title: 'Saleh Kamel',
     headTitle: 'A prince from a royal family.',
     description: 'A well-known investor.',
-    src: 'https://static.mubasher.info/File.Story_Image/4e4b61bb7d76de020c9350a5f2b7bfc4/640.jpg',
   },
 
   {
+    src: 'https://china.aramco.com/-/media/aramcochina/news-images/amin-nasser-president-and-ceo-web.jpg',
     title: 'Amin H. Nasser',
     headTitle: 'A prince from a royal family.',
     description: 'A well-known investor.',
-    src: 'https://china.aramco.com/-/media/aramcochina/news-images/amin-nasser-president-and-ceo-web.jpg',
   },
 
   {
+    src: 'https://makkahnewspaper.com/uploads/images/2021/10/23/1396741.jpg',
     title: 'Jasser Abdullah Jasser Al Ahmadi',
     headTitle: 'A prince from a royal family.',
     description: 'A well-known investor.',
-    src: 'https://makkahnewspaper.com/uploads/images/2021/10/23/1396741.jpg',
   },
 
   {
+    src: 'https://6erxg60qvo1qvjha44jrgpan-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/Screenshot-2021-12-20-at-14.16.14.png',
     title: 'Mazen M. Hassanain',
     headTitle: 'Co-Founder and Managing Director, SaudiVax.',
     description: 'A well-known investor.',
-    src: 'https://6erxg60qvo1qvjha44jrgpan-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/Screenshot-2021-12-20-at-14.16.14.png',
   },
 ];
 
 const speakers = document.querySelector('#speakers');
+
 speakers.innerHTML = `
 <h2 class="mt-5 text-center">Featured Speakers</h2>
 <hr style="width:10%; height: 3px; color:red; margin-left: 45%;">
