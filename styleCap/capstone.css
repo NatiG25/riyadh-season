@@ -147,22 +147,16 @@
   .header {
     color: #e63521;
   }
-
-  .first-title {
-    background-color: rgb(51, 54, 54);
-    padding-right: 10%;
-  }
-
+  
   .first-title a {
     text-decoration: none;
     color: white;
   }
-
-  .first-title ul {
-    margin: 0;
-  }
-
+  
   .title-black {
+    background-color: rgb(51, 54, 54);
+    padding-right: 10%;
+    margin: 0;
     display: flex;
     justify-content: flex-end;
     list-style: none;
