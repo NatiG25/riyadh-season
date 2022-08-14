@@ -75,8 +75,8 @@ const speakersDesktop = document.querySelector('.speakers-desktop');
 
 const speakersDesktopSections = (projects) => {
   let allSections = '';
-  for (let i = 0; i < projects.length; i++) {
- allSections += `<section class="mt-5">
+  for (let i = 0; i < projects.length; i += 1) {
+    allSections += `<section class="mt-5">
   <div class="row">
   <div class="col-3">
   <img class="img-fluid" src="${projects[i].src}" alt="A Saudi Prince">
@@ -100,9 +100,9 @@ const speakersDesktopSections = (projects) => {
  </div>
  </section>
 `;
-i++
+    i += 1;
   }
-  return allSections
+  return allSections;
 };
 
 speakersDesktop.innerHTML += speakersDesktopSections(projects);
