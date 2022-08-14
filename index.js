@@ -56,7 +56,7 @@ const projects = [
   },
 ];
 
-const speakers = document.querySelector('.container');
+const speakers = document.querySelector('.speakers');
 
 speakers.innerHTML += projects.map((item) => `<article class="row">
 <div class="col my-4">
@@ -70,163 +70,39 @@ speakers.innerHTML += projects.map((item) => `<article class="row">
   </div>
   </article>`).join('');
 
-// speakers.innerHTML = `
-//  <h2 class="mt-5 text-center">Featured Speakers</h2>
-//  <hr style="width:10%; height: 3px; color:red; margin-left: 45%;">
-//  <div class="container">
-
-//  <article class="row">
-//  <div class="col my-4">
-//  <img class="img-fluid" src="${projects[0].src}" alt="A Saudi Prince">
-//  </div>
-//  <div class="col  my-4">
-//    <h2>${projects[0].title}</h2>
-//    <p class="feature-text">${projects[0].headTitle}</p>
-//    <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
-//    <p class="fst-italic">${projects[0].description}</p>
-//    </div>
-//  </article>
-
-//  <article class="row">
-//  <div class="col my-4">
-//  <img class="img-fluid" src="${projects[1].src}" alt="A Saudi Prince">
-//  </div>
-//  <div class="col  my-4">
-//    <h2>${projects[1].title}</h2>
-//    <p class="feature-text">${projects[1].headTitle}</p>
-//    <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
-//    <p class="fst-italic">${projects[1].description}</p>
-//    </div>
-//  </article>
-
-//  <article class="row">
-//  <div class="col my-4">
-//  <img class="img-fluid" src="${projects[2].src}" alt="A Saudi Prince">
-//  </div>
-//  <div class="col  my-4">
-//    <h2>${projects[2].title}</h2>
-//    <p class="feature-text">${projects[2].headTitle}</p>
-//    <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
-//    <p class="fst-italic">${projects[2].description}</p>
-//    </div>
-//  </article>
-
-//  <article class="row">
-//  <div class="col my-4">
-//  <img class="img-fluid" src="${projects[3].src}" alt="A Saudi Prince">
-//  </div>
-//  <div class="col  my-4">
-//    <h2>${projects[3].title}</h2>
-//    <p class="feature-text">${projects[3].headTitle}</p>
-//    <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
-//    <p class="fst-italic">${projects[3].description}</p>
-//    </div>
-//  </article>
-
-//  <article class="row">
-//  <div class="col my-4">
-//  <img class="img-fluid" src="${projects[4].src}" alt="A Saudi Prince">
-//  </div>
-//  <div class="col  my-4">
-//    <h2>${projects[4].title}</h2>
-//    <p class="feature-text">${projects[4].headTitle}</p>
-//    <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
-//    <p class="fst-italic">${projects[4].description}</p>
-//    </div>
-//  </article>
-
-//  <article class="row">
-//  <div class="col my-4">
-//  <img class="img-fluid" src="${projects[5].src}" alt="A Saudi Prince">
-//  </div>
-//  <div class="col  my-4">
-//    <h2>${projects[5].title}</h2>
-//    <p class="feature-text">${projects[5].headTitle}</p>
-//    <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
-//    <p class="fst-italic">${projects[5].description}</p>
-//    </div>
-//  </article>
-
-//  </div>
-//  `;
 // Desktop Featured speakers
-const speakersDesktop = document.querySelector('#speakers-desktop');
-speakersDesktop.innerHTML = `
-<h5 class="mt-5 text-center">Featured Speakers</h5>
-<hr style="width:10%; height: 3px; color:red; margin-left: 45%;"> 
-<div class="container mt-5 pt-5">
+const speakersDesktop = document.querySelector('.speakers-desktop');
 
-<section>
-<div class="row">
-<div class="col-3">
-<img class="img-fluid" src="${projects[0].src}" alt="A Saudi Prince">
-</div>
-<div class="col-3">
-<h4>${projects[0].title}</h4>
-  <p class="feature-text">${projects[0].headTitle}</p>
-  <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
-  <p class="fst-italic">${projects[0].description}</p>
-</div>
+const speakersDesktopSections = (projects) => {
+  let allSections = '';
+  for (let i = 0; i < projects.length; i++) {
+ allSections += `<section class="mt-5">
+  <div class="row">
+  <div class="col-3">
+  <img class="img-fluid" src="${projects[i].src}" alt="A Saudi Prince">
+  </div>
+  <div class="col-3">
+  <h4>${projects[i].title}</h4>
+    <p class="feature-text">${projects[i].headTitle}</p>
+    <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
+    <p class="fst-italic">${projects[i].description}</p>
+  </div>
 
-<div class="col-3">
-<img class="img-fluid" src="${projects[1].src}" alt="A Saudi Prince">
-</div>
-<div class="col-3">
-<h4>${projects[1].title}</h4>
-  <p class="feature-text">${projects[1].headTitle}</p>
-  <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
-  <p class="fst-italic">${projects[1].description}</p>
-</div>
-</div>
-</section>
-
-<section class="mt-5">
-<div class="row">
-<div class="col-3">
-<img class="img-fluid" src="${projects[2].src}" alt="A Saudi Prince">
-</div>
-<div class="col-3">
-<h4>${projects[2].title}</h4>
-  <p class="feature-text">${projects[2].headTitle}</p>
-  <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
-  <p class="fst-italic">${projects[2].description}</p>
-</div>
-
-<div class="col-3">
-<img class="img-fluid" src="${projects[3].src}" alt="A Saudi Prince">
-</div>
-<div class="col-3">
-<h4>${projects[3].title}</h4>
-  <p class="feature-text">${projects[3].headTitle}</p>
-  <hr style="width: 33%; height: 3px; color: black; margin-bottom: 8%" />
-  <p class="fst-italic">${projects[3].description}</p>
-</div>
-</div>
-</section>
-
-<section class="mt-5">
-<div class="row">
-<div class="col-3">
-<img class="img-fluid" src="${projects[4].src}" alt="A Saudi Prince">
-</div>
-<div class="col-3">
-<h4>${projects[4].title}</h4>
-  <p class="feature-text">${projects[4].headTitle}</p>
-  <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
-  <p class="fst-italic">${projects[4].description}</p>
-</div>
-
-<div class="col-3">
-<img class="img-fluid" src="${projects[5].src}" alt="A Saudi Prince">
-</div>
-<div class="col-3">
-<h4>${projects[5].title}</h4>
-  <p class="feature-text">${projects[5].headTitle}</p>
-  <hr style="width: 33%; height: 3px; color: black; margin-bottom: 8%" />
-  <p class="fst-italic">${projects[5].description}</p>
-</div>
-</div>
-</section>
-
-</div>
+ <div class="col-3">
+ <img class="img-fluid" src="${projects[i + 1].src}" alt="A Saudi Prince">
+ </div>
+ <div class="col-3">
+ <h4>${projects[i + 1].title}</h4>
+   <p class="feature-text">${projects[i + 1].headTitle}</p>
+   <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
+   <p class="fst-italic">${projects[i + 1].description}</p>
+ </div>
+ </div>
+ </section>
 `;
+i++
+  }
+  return allSections
+};
+
+speakersDesktop.innerHTML += speakersDesktopSections(projects);
