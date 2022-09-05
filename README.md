@@ -4,8 +4,8 @@
 
 > This website allows users to gain access for this year's unique festival happening in Riyadh. Users can view previous festivals in addition to securing themselves with a ticket. 
 
-![Screenshot from 2022-02-12 00-35-38](https://user-images.githubusercontent.com/86069740/153676668-1ba41fb8-4cd2-4658-ab55-f0d92b4808f6.png)
-![Screenshot from 2022-02-12 01-00-50](https://user-images.githubusercontent.com/86069740/153676678-c96e619d-9f39-453d-9660-10f6335c104e.png)
+## Wesbite Mockup
+![all-devices-black](https://user-images.githubusercontent.com/86069740/188518289-2074ae5a-fae2-4bd8-b503-5a76a40b8ce9.png)
 
 ## Built With
 
