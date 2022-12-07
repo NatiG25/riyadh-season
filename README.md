@@ -26,8 +26,8 @@ https://www.loom.com/share/2a218e4a6c2c4e08acef945f2ad51b96
 ## Authors
 
 - GitHub: [@NatiG25](https://github.com/NatiG25)
-- Twitter: [@NatiG](https://twitter.com/NatiG87702270)
-- LinkedIn: [@Natnail](https://linkedin.com/in/temesgen-g-gorgis-0910a6229 )
+- Twitter: [@NatiG255](https://twitter.com/NatiG255)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/natigebregorgis/)
 
 ## 🤝 Contributing
 
