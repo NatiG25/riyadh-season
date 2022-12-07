@@ -2,7 +2,7 @@
 
 # Riyadh Season
 
-> This website allows users to gain access for this year's unique festival happening in Riyadh. Users can view previous festivals in addition to securing themselves with a ticket. 
+> This website gives users a little insight or an idea of how Saudi Arabia celebrates during the Riyadh season annual festival, for this year along with the previous one. In addition to, getting to know the people behind it.
 
 ## Wesbite Mockup
 ![all-devices-black](https://user-images.githubusercontent.com/86069740/188518289-2074ae5a-fae2-4bd8-b503-5a76a40b8ce9.png)
