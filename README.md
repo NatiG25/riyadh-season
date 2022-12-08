@@ -19,10 +19,6 @@
 
 [Live Demo Link](https://natig25.github.io/Riyadh-season/)
 
-## Video Presentation
-
-https://www.loom.com/share/2a218e4a6c2c4e08acef945f2ad51b96
-
 ## Authors
 
 - GitHub: [@NatiG25](https://github.com/NatiG25)
