@@ -6,7 +6,7 @@
   }
 
   .header-background {
-    background-image: url(../image/header.png);
+    background-image: url(../images/header.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,6 +17,11 @@
     justify-content: space-between;
     list-style: none;
     text-decoration: none;
+  }
+
+  .img-speakers {
+    width: 100%;
+    height: 10rem;
   }
 
   .nav-menu {
@@ -76,7 +81,7 @@
   }
 
   #home-desktop {
-    background-image: url(../image/Partners.jpg);
+    background-image: url(../images/Partners.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -163,7 +168,7 @@
 
   /* Nav */
   .header-background {
-    background-image: url(../image/header.png);
+    background-image: url(../images/header.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -173,6 +178,11 @@
     display: block;
     cursor: pointer;
     margin: 20px 0 0 20px;
+  }
+
+  .img-speakers {
+    width: 100%;
+    height: 10rem;
   }
 
   .mobile-nav {
@@ -204,7 +214,7 @@
   }
 
   #home {
-    background-image: url(../image/Partners.jpg);
+    background-image: url(../images/Partners.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #ec5242;
