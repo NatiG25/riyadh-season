@@ -7,6 +7,8 @@
   display: none;
 }
 
+/* ==================== HEADER ==================== */
+
 .header-background {
   background-image: url(../images/header.png);
   background-repeat: no-repeat;
@@ -19,11 +21,6 @@
   justify-content: space-between;
   list-style: none;
   text-decoration: none;
-}
-
-.img-speakers {
-  width: 100%;
-  height: 10rem;
 }
 
 .nav-menu {
@@ -82,7 +79,7 @@
   height: 70px;
 }
 
-#home-desktop {
+#home {
   background-image: url(../images/Partners.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,6 +118,40 @@
   border: 2px solid rgb(224, 218, 218);
 }
 
+/* ==================== SPEAKERS ==================== */
+
+.img-speakers {
+  width: 100%;
+  height: 10rem;
+}
+
+.speakers-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.speakers-first-column,
+.speakers-second-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+.speaker-item {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.speaker-item-text {
+  width: 100%;
+}
+
+/* ==================== PARTNERS ==================== */
+
 .feature-text {
   color: #ec5242;
   font-style: italic;
@@ -156,8 +187,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* Nav */
-  .header-background {
+  .title-black,
+  .title-white {
+    display: none;
+  }
+
+/* ==================== HEADER ==================== */
+.header-background {
     background-image: url(../images/header.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,12 +246,28 @@
     color: #ec5242;
   }
 
+/* ==================== EVENTS ==================== */
+
   .events-container {
     padding: 7%;
+    flex-direction: column;
+  }
+
+  .events {
+    flex-direction: row;
+    gap: 1rem;
+    padding: 25px;
   }
 
   .fas {
     font-size: 3rem;
+  }
+
+  /* ==================== SPEAKERS ==================== */
+
+  .speakers-container {
+    flex-direction: column;
+    gap: 5rem;
   }
 
   .feature-text {

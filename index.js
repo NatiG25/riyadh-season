@@ -56,7 +56,7 @@ const projects = [
   },
 ];
 
-const speakers = document.querySelector('.speakers');
+const speakers = document.querySelector('.speaers');
 
 speakers.innerHTML += projects.map((item) => `<article class="row">
 <div class="col my-4">
