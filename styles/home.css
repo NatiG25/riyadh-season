@@ -4,16 +4,68 @@
 }
 
 .mobile-nav {
-  display: none;
+  /* display: none; */
+}
+
+:root {
+/* ========= COLORS ========= */
+  --first-color: #e63521;
+  --white-color: #fff;
+
+
+/* ========= EFFECTS ========= */
+  --transition: 0.5s ease-in-out
+
+/* ========= FONT SIZES ========= */
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+}
+
+/* ========= ANIMATIONS ========= */
+@keyframes visible {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 0%;
+  }
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --big-font-size: 3rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* ==================== HEADER ==================== */
 
-.header-background {
-  background-image: url(../images/header.png);
+.header {
+  background-image: url(../images/backgrounds/header.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  color: #e63521;
+  text-align: center;
 }
 
 .title-bar {
@@ -21,16 +73,6 @@
   justify-content: space-between;
   list-style: none;
   text-decoration: none;
-}
-
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-}
-
-.header {
-  color: #e63521;
 }
 
 .title-black {
@@ -57,6 +99,7 @@
   display: flex;
   justify-content: space-between;
   background-color: white;
+  transition: transform 0.3s;
 }
 
 .title-white {
@@ -79,8 +122,8 @@
   height: 70px;
 }
 
-#home {
-  background-image: url(../images/Partners.jpg);
+#main-programs {
+  background-image: url(../images/backgrounds/program.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -103,7 +146,7 @@
 }
 
 .events {
-  background-color: rgb(51, 54, 54);
+  background-color: rgb(68, 83, 83);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -152,6 +195,11 @@
 
 /* ==================== PARTNERS ==================== */
 
+
+#partners {
+  background-color: #454a57;
+}
+
 .feature-text {
   color: #ec5242;
   font-style: italic;
@@ -159,15 +207,21 @@
 
 .partners {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
-.partners p {
-  padding-left: 4%;
+.partner-img {
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-wrap: wrap;
+  transition: transform 0.2s ease-in-out;
 }
 
-#partners {
-  background-color: #454a57;
+.partner-img:hover {
+  transform: scale(1.2);
 }
 
 .flex-copy {
@@ -188,27 +242,17 @@
 
 @media screen and (max-width: 768px) {
   .title-black,
-  .title-white {
+  .title-white,
+  .second-title {
     display: none;
   }
 
 /* ==================== HEADER ==================== */
-.header-background {
-    background-image: url(../images/header.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
 
   .hamburger-menu {
     display: block;
     cursor: pointer;
     margin: 20px 0 0 20px;
-  }
-
-  .img-speakers {
-    width: 100%;
-    height: 10rem;
   }
 
   .mobile-nav {
@@ -219,6 +263,13 @@
     justify-content: space-between;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    transition: var(--transition);
+  }
+
+  .close-btn {
+    position: fixed;
+    top: 0;
+    /* right: 0; */
   }
 
   .header {
@@ -235,18 +286,16 @@
     font-weight: 100;
   }
 
-  .nav-menu {
-    display: none;
+  .bar:nth-child(2) {
+    width: 20px;
+    margin-left: 0;
   }
 
-  #home {
-    background-image: url(../images/Partners.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  
+  /* ==================== EVENTS ==================== */
+  #main-programs {
     color: #ec5242;
   }
-
-/* ==================== EVENTS ==================== */
 
   .events-container {
     padding: 7%;
@@ -257,17 +306,6 @@
     flex-direction: row;
     gap: 1rem;
     padding: 25px;
-  }
-
-  .fas {
-    font-size: 3rem;
-  }
-
-  /* ==================== SPEAKERS ==================== */
-
-  .speakers-container {
-    flex-direction: column;
-    gap: 5rem;
   }
 
   .feature-text {
@@ -298,7 +336,39 @@
     justify-content: center;
   }
 
+  .fas {
+    font-size: 3rem;
+  }
+
+  /* ==================== SPEAKERS ==================== */
+
+  .speakers-container {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .speakers-img {
+    width: 100%;
+    height: 10rem;
+    background-image: url(../images/backgrounds/chess-board.png);
+  }
+
+  /* ==================== NAV ==================== */
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+  }
+
   /* Active hamburger */
+  .hamburger-menu.active {
+    z-index: 2;
+  }
+
+  .hamburger-menu.active .bar {
+    background-color: var(--white-color);
+  }
+
   .hamburger-menu.active .bar:nth-child(2) {
     opacity: 0;
   }
@@ -311,14 +381,19 @@
     transform: translateY(-8px) rotate(-45deg);
   }
 
+
   .nav-menu.active {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px;
-    top: 70px;
-    width: 100%;
-    transition: 0.3s;
-    list-style: none;
+    justify-content: center;
+    width: 70%;
+    top: 0;
+    left: 0%;
+    background-color: var(--first-color);
+    /* color: var(--white-color); */
+    font-size: var(--h2-font-size);
+    animation: visible 0.7s;
   }
 }
