@@ -4,7 +4,7 @@
 }
 
 .mobile-nav {
-  /* display: none; */
+  display: none;
 }
 
 :root {
@@ -47,14 +47,6 @@
     --small-font-size: 0.875rem;
     --smaller-font-size: 0.813rem;
   }
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
 }
 
 /* ==================== HEADER ==================== */
@@ -120,6 +112,7 @@ a {
 .logo-img {
   width: 70px;
   height: 70px;
+  margin-top: 5%;
 }
 
 #main-programs {
@@ -279,7 +272,7 @@ a {
   .bar {
     display: block;
     width: 25px;
-    height: 3px;
+    height: 4px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
     background-color: rgb(134, 130, 130);
