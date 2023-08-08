@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Riyadh Season</title>
-    <link rel="stylesheet" href="../styles/reset.css" />
-    <link rel="stylesheet" href="../styles/about.css" />
     <script
       src="https://kit.fontawesome.com/04970764d6.js"
       crossorigin="anonymous"
@@ -17,6 +15,9 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="../styles/home.css" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/about.css" />
   </head>
   <body>
     <header class="header-background">
@@ -28,33 +29,33 @@
         </div>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="../index.html" class="nav-link text-muted">Home</a>
+            <a href="../index.html" class="nav-link text-white">Home</a>
           </li>
           <li class="nav-item">
-            <a href="about/about.html" class="nav-link text-muted">About</a>
+            <a href="#" class="nav-link text-white">About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link text-muted">News</a>
+            <a href="#program" class="nav-link text-white">Program</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link text-muted">Sponser</a>
+            <a href="#partners" class="nav-link text-white">Partners</a>
           </li>
         </ul>
       </nav>
 
-      <nav class="first-title">
+      <nav>
         <ul class="title-black">
           <li>
-            <a href="#" class=""><i class="fab fa-facebook-f"></i></a>
+            <a href="https://github.com/NatiG25/" class=""><i class="fab fa-facebook-f"></i></a>
           </li>
           <li>
-            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://twitter.com/NatiG255"><i class="fab fa-twitter"></i></a>
           </li>
           <li>
             <a href="#">English</a>
           </li>
           <li>
-            <a href="#">My Page</a>
+            <a href="https://natig.me">My Page</a>
           </li>
           <li>
             <a href="#">Logout</a>
@@ -67,37 +68,38 @@
           <a href="../index.html"
             ><img
               class="logo-img ms-5"
-              src="../images/riyadh-saudi-arabia.jpeg"
+              src="../images/icons/logo.jpeg"
               alt="riyadh season logo"
           /></a>
         </div>
         <ul class="title-white">
           <li>
-            <a href="about/about.html" class="nav-link text-muted">About</a>
+            <a href="../index.html" class="nav-link text-muted">Home</a>
           </li>
           <li>
-            <a href="#" class="nav-link text-muted">Program</a>
+            <a href="#" class="nav-link text-muted">About</a>
           </li>
           <li>
-            <a href="#" class="nav-link text-muted">Sponser</a>
+            <a href="#program" class="nav-link text-muted">Program</a>
+          </li>
+          <li class="partners-link">
+            <a href="#partners" class="nav-link text-muted">Sponser</a>
           </li>
           <li>
-            <a href="#" class="nav-link text-muted">Join</a>
+            <a href="#past-festivals" class="nav-link text-muted">Past Festivals</a>
           </li>
-          <li>
-            <a href="#" class="nav-link text-muted">News</a>
-          </li>
+          
           <li class="pt-1">
             <a href="#" class="title-red mx-5">CC Campaign</a>
           </li>
         </ul>
       </nav>
 
-      <article>
-        <h2 class="display-2 text-center header ps-3 mt-5">
+      <article class="header">
+        <h2 class="display-2 text-center mb-0 pt-5">
           "Hello! Sharing World"
         </h2>
-        <h1 class="display-1 text-center fw-bold header ps-3 pe-3">
+        <h1 class="display-1 text-center fw-bold ps-3 pe-3">
           Join our unique annual <br />
           festival in the capital <br />
           city of Saudia Arabia, Riyadh
@@ -118,10 +120,10 @@
       </article>
     </header>
 
-    <section class="text-center">
+    <section class="text-center" id="program">
       <article>
-        <h3>The Riyadh season festival's logo.</h3>
-        <p class="mx-5">
+        <h3 class="my-4">The Riyadh season festival's logo.</h3>
+        <p class="mx-5 mb-4">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
           eum exercitationem, vel harum voluptate aspernatur, dignissimos velit
           voluptatibus in architecto reiciendis asperiores nobis! Doloremque,
@@ -129,22 +131,22 @@
         </p>
         <img
           class="img-fluid"
-          src="../images/riyadh-saudi-arabia.jpeg"
+          src="../images/icons/logo.jpeg"
           alt="Riyadh season logo"
         />
         <hr class="mt-5" />
         <h3>See the past festivals</h3>
         <hr style="width: 10%; height: 3px; color: red; margin-left: 45%" />
-        <p>
+        <p class="mb-4">
           Take a glimpse of the first along with the second edition of the
           festival in 2019 & 2021.
         </p>
-        <div class="flex">
-          <p class="festival-background text-white p-5 fs-5 mx-3">
+        <div class="flex" id="past-festivals">
+          <p class="festival-background text-white p-5 mb-3 fs-5 mx-3">
             <span class="fw-bold">2019</span> <br />
             Riyadh Season 2019 in Riyadh
           </p>
-          <p class="festival-background text-white p-5 fs-5 mx-3">
+          <p class="festival-background text-white p-5 fs-5 mx-3 mb-3">
             <span class="fw-bold">2021</span> <br />
             Riyadh Season 2021 in Riyadh
           </p>
@@ -153,15 +155,14 @@
     </section>
 
     <section id="partners" class="text-center p-3 mt-4 py-5">
-      <h3 class="text-white">Partner</h3>
+      <h3 class="display-5 text-white">Partners</h3>
       <hr style="width: 10%; height: 3px; color: red; margin-left: 45%" />
       <div class="partners">
-        <p class="fw-bold lead text-muted">Saudi Aramco</p>
-        <p class="fw-light lead">Almarai</p>
-        <p class="fw-bolder lead text-muted">Afia</p>
-        <br />
-        <p class="fw-light text-black lead">SABIC</p>
-        <p class="lead text-muted">STC</p>
+        <img class="partner-img" src="../images/partners/partner1.png" alt="company">
+        <img class="partner-img" src="../images/partners/partner2.png" alt="company">
+        <img class="partner-img" src="../images/partners/partner3.png" alt="company">
+        <img class="partner-img" src="../images/partners/partner4.png" alt="company">
+        <img class="partner-img" src="../images/partners/partner5.png" alt="company">
       </div>
     </section>
 
@@ -170,7 +171,7 @@
         <a href="index.html">
           <img
             class="logo-img pt-1"
-            src="../images/riyadh-saudi-arabia.jpeg"
+            src="../images/icons/logo.jpeg"
             alt="riyadh season logo"
         /></a>
         <div class="para-copy">

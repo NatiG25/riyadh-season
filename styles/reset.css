@@ -85,3 +85,11 @@ video {
   font-size: 100%;
   vertical-align: baseline;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
