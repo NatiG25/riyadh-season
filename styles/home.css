@@ -156,7 +156,7 @@
 /* ==================== SPEAKERS ==================== */
 
 .img-speakers {
-  width: 100%;
+  width: 15rem;
   height: 10rem;
 }
 
@@ -170,8 +170,7 @@
 .speakers-second-column {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   gap: 5rem;
 }
 
@@ -200,11 +199,11 @@
 .partners {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .partner-img {
-  width: 10%;
+  width: 7%;
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
@@ -261,7 +260,6 @@
   .close-btn {
     position: fixed;
     top: 0;
-    /* right: 0; */
   }
 
   .header {
@@ -345,6 +343,16 @@
     background-image: url(../images/backgrounds/chess-board.png);
   }
 
+  .img-speakers {
+    width: 50%;
+  }
+
+  /* ==================== PARTNER ==================== */
+
+  .partner-img {
+    width: 18%;
+  }
+
   /* ==================== NAV ==================== */
 
   .nav-menu {
@@ -366,7 +374,7 @@
   }
 
   .hamburger-menu.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);
   }
 
   .hamburger-menu.active .bar:nth-child(3) {
@@ -384,7 +392,6 @@
     top: 0;
     left: 0%;
     background-color: var(--first-color);
-    /* color: var(--white-color); */
     font-size: var(--h2-font-size);
     animation: visible 0.7s;
   }

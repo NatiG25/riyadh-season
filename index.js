@@ -12,6 +12,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 }));
 
 // Featured speakers
+// TODO change the var name
 const projects = [
   {
     src: './images/kingSalman.jpeg',
@@ -56,19 +57,19 @@ const projects = [
   },
 ];
 
-const speakers = document.querySelector('.speaers');
+const speakers = document.querySelector('.speaers'); // TODO don't forget you misspelled here
 
-speakers.innerHTML += projects.map((item) => `<article class="row">
-<div class="col my-4">
-<img class="img-speakers" src="${item.src}" alt="A Saudi Prince">
-</div>
-<div class="col  my-4">
-  <h2>${item.title}</h2>
-  <p class="feature-text">${item.headTitle}</p>
-  <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
-  <p class="fst-italic">${item.description}</p>
-  </div>
-  </article>`).join('');
+// speakers.innerHTML += projects.map((item) => `<article class="row">
+// <div class="col my-4">
+// <img class="img-speakers" src="${item.src}" alt="A Saudi Prince">
+// </div>
+// <div class="col  my-4">
+//   <h2>${item.title}</h2>
+//   <p class="feature-text">${item.headTitle}</p>
+//   <hr style="width: 13%; height: 3px; color: black; margin-bottom: 8%" />
+//   <p class="fst-italic">${item.description}</p>
+//   </div>
+//   </article>`).join('');
 
 // Desktop Featured speakers
 const speakersDesktop = document.querySelector('.speakers-desktop');
@@ -105,4 +106,4 @@ const speakersDesktopSections = (projects) => {
   return allSections;
 };
 
-speakersDesktop.innerHTML += speakersDesktopSections(projects);
+// speakersDesktop.innerHTML += speakersDesktopSections(projects);
